@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+img{
+width: 190px;
+height: 70px;
+color: whitesmoke;
+}
+a{
+   
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color:black;
+    align-items: center;
+}
+
+.nav-links{
+    list-style: none;
+    top: 0;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding-left: 10px;
+
+}
+
+.nav-links li a:hover{
+    color: red;
+}
+.nav-links li a{
+    color:white;
+}
+.btn-login{
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: aqua;
+margin: 20px;
+color: white;
+
+
+    
+}
+.btn-login:hover{
+    color: blue;
+    cursor: pointer;
+}
+.nav-links{
+    margin: 20px;
+}
+.big{
+    font-size: 40px;
+    color: white;
+}
+.small{
+    font-size: 20px;
+    color: rgba(245, 245, 245, 0.466);
+}
+.main-image{
+    height: 300px;
+    width: 300px;
+    padding-right: 80px;
+    
+}
+.main{
+    display: flex;
+    background-color:rgb(0, 0, 0);
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+}
+.btn-gettingstarted{
+   
+    height:40px;
+    width: 100px;
+    border-style: none;
+    border-radius: 20px;
+    background-color: aqua;
+    margin: 20px;
+    color: rgb(245, 245, 245);
+    
+}
+.btn-gettingstarted:hover{
+    color: brown;
+    cursor: pointer;
+}
+.client-logo-div{
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: center;
+    
+
+
+}
+.client-logo{
+    height: 7%;
+    width: 7%;
+    padding-left: 90px;
+    padding-bottom: 20px;
+    
+    
+
+}
+.ourclient-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-left:0px ;
+    padding-bottom: 10px;
+
+    
+}
+.client-area{
+    background-color: #dee2e6;
+}
+.foot{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background-color: blueviolet;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+
+    
+
+}
+
+
